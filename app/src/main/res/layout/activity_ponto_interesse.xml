@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="16dp"
+    android:gravity="center"
+    tools:context="br.edu.ifrs.canoas.ifcaronasolidaria.fragment.PontoInteresseFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:ignore="WebViewLayout">
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cadastrar Ponto de interesse"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                android:textColor="#FF0000"
+                android:visibility="visible"
+                tools:layout_editor_absoluteX="2dp"
+                tools:layout_editor_absoluteY="200dp" />
+
+            <View
+                android:id="@+id/divider4"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:attr/listDivider" />
+
+            <EditText
+                android:id="@+id/etRuaCad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="CEP/Local" />
+
+            <EditText
+                android:id="@+id/etNomeCad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nome" />
+
+            <EditText
+                android:id="@+id/etNumeroCad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Número"
+                android:inputType="number" />
+
+            <WebView
+                android:id="@+id/webView1"
+                android:layout_width="match_parent"
+                android:layout_height="332dp" />
+
+            <Button
+                android:id="@+id/btnCadastrar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Salvar" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Buscar Ponto" />
+
+            <EditText
+                android:id="@+id/etNomeBusca"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nome" />
+
+            <Button
+                android:id="@+id/btnBuscar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Buscar" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Deletar Ponto" />
+
+            <EditText
+                android:id="@+id/etNomeDeleta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nome" />
+
+            <EditText
+                android:id="@+id/etRuaDeleta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Rua" />
+
+            <Button
+                android:id="@+id/btnDeletar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Deletar" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Alterar Nome Ponto" />
+
+            <EditText
+                android:id="@+id/etNomeAntigo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nome Antigo" />
+
+            <EditText
+                android:id="@+id/etNomeNovo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nome Novo" />
+
+            <Button
+                android:id="@+id/btnAlterar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Alterar" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Listar Pontos de interese cadastrados" />
+
+            <Button
+                android:id="@+id/btnListar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Listar" />
+        </LinearLayout>
+    </ScrollView>
+    <!-- chamada do maps -->
+</LinearLayout>

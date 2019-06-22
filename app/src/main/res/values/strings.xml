@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">IFCaronaSolidaria</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="default_info_title">Default Location</string>
+    <string name="default_info_snippet">No places found, because location permission is disabled.</string>
+    <string name="option_get_place">Get place</string>
+    <string name="pick_place">Choose a place</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_login_nativo">Sign in</string>
+    <string name="msg_subscribed">Subscribed to weather topic</string>
+    <string name="msg_subscribe_failed">Failed to subscribe to weather topic</string>
+
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_listar_curso">ListarCurso</string>
+    <string name="title_activity_buscar_carona">BuscarCaronaActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_navigation_drawer">NavigationDrawerActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="google_maps_key">AIzaSyACHz0IOiJO2V2xDDjdAMvdCxP4BrLE2Lw</string>
+
+    <string name="title_activity_view_cordinates">ViewCordinatesActivity</string>
+    <string name="title_activity_view_coordinate2">ViewCoordinate2</string>
+    <string name="bem_vindo">BEM VINDO!</string>
+    <string name="ajude_seu_colega_ofere_a_carona">Ajude seu colega, ofereça carona!</string>
+    <string name="pratique_a_sustentabilidade_menos_carros_nas_ruas_significa_menos_emiss_es_e_cidades_mais_limpas_e_saud_veis">Pratique a sustentabilidade: menos carros nas ruas significa menos emissões e cidades mais limpas e saudáveis.</string>
+    <string name="logo">logo</string>
+    <string name="imageLogo">logo</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="entrar">Entrar</string>
+    <string name="zeroCaronasCadastradasParaUser">Nehuma Carona Cadastrada!</string>
+
+
+</resources>
