@@ -8,3 +8,4 @@ estudantes e professores do IFRS - Campus Canoas que além de facilitar o acesso
 Campus Canoas ainda possibilita maior interação e responsabilidade social. <br />
 
 
+![image](https://user-images.githubusercontent.com/17839848/180328802-5319fc8a-cf89-4ed7-b4f9-d88f96e98aa5.png)
